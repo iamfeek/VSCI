@@ -7,8 +7,8 @@ import java.io.IOException;
  */
 public class mainServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        response.sendRedirect("dashboard.jsp");
-
+        response.sendRedirect("dashboard");
+        System.out.println(request.getHeader("origin"));
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
