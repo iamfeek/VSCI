@@ -15,8 +15,7 @@ import java.io.IOException;
  */
 public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //Hong Yi does his work here.
-
+        //Hong Yi does his work here
 
         User u = new User(1, "Syafiq Hanafee", 1);
         HttpSession session = request.getSession();
