@@ -47,7 +47,7 @@
 
 <section class="container-fluid" id="section1">
     <div class="v-center">
-        <h1 class="text-center">Very Safe Communication Interface</h1>
+        <h1 class="text-center">Very Safe Communication Interface FROM GIT</h1>
 
         <h2 class="text-center lato animate slideInDown">The <strong>Most</strong> Secured Cloud Storage</h2>
 
