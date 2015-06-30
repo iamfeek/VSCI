@@ -16,6 +16,13 @@ import java.io.IOException;
 public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //Hong Yi does his work here
+        System.out.println("GOT IT! Login");
+
+        //get the variables, email & password
+        //send this for logic check
+        System.out.println(request.getParameter("email"));
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
 
         User u = new User(1, "Syafiq Hanafee", 1);
         HttpSession session = request.getSession();

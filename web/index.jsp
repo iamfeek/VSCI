@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>VSCI | Welcome</title>
+    <title>&micro;DropDrive | Welcome</title>
     <meta name="description"
           content="This one page example has a fixed navbar and full page height sections. Each section is vertically centered on larger screens, and then stack responsively on smaller screens. Scrollspy is used to activate the current menu item. This layout also has a contact form example. Uses animate.css, FontAwesome, Google Fonts (Lato and Bitter) and Bootstrap."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,9 +47,10 @@
 
 <section class="container-fluid" id="section1">
     <div class="v-center">
-        <h1 class="text-center">Very Safe Communication Interface FROM GIoiipoipoiT</h1>
+        <h1 class="text-center">&micro;DropDrive</h1>
 
-        <h2 class="text-center lato animate slideInDown">The <strong>Most</strong> Secured Cloud Storage</h2>
+        <h2 class="text-center lato animate slideInDown"><u style="font-size: 42px;">The <strong>Most</strong>
+            Secured</u><br> Cloud Storage & Communicator</h2>
 
         <h2 class="text-center lato animate slideInDown">Now more <b>secured</b> than ever.</h2>
 
@@ -408,7 +409,7 @@
 
                 <form class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0" method="post" action="login">
                     <div class="form-group">
-                        <input type="text" class="form-control input-lg" placeholder="Email">
+                        <input type="text" class="form-control input-lg" placeholder="Email" name="email">
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control input-lg" placeholder="Password">
@@ -454,6 +455,11 @@
                     <div class="form-group input-group">
                         <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                         <input type="text" class="form-control input-lg" placeholder="Email">
+
+                    </div>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+                        <input type="text" class="form-control input-lg" placeholder="Phone Number">
 
                     </div>
                     <div class="form-group input-group">
