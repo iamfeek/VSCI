@@ -14,6 +14,8 @@ import java.io.IOException;
 @WebServlet(name = "nodeCheckQueueServlet")
 public class nodeCheckQueueServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        response.setContentType("text/plain");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write("check_queue gotten");
     }
 }

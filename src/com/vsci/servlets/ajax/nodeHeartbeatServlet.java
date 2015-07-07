@@ -14,6 +14,9 @@ import java.io.IOException;
 @WebServlet(name = "nodeHeartbeatServlet")
 public class nodeHeartbeatServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        response.setContentType("text/plain");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write("heartbeat gotten");
+        System.out.println("Heartbeat Client's UUID: " + request.getParameter("uuid"));
     }
 }

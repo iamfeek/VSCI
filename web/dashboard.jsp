@@ -1,8 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" session="true" %>
 <html>
 <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.js"></script>
-    <script src="http://malsup.github.com/jquery.form.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery_form.js"></script>
 
     <title>VSCI | Dashboard</title>
 
@@ -54,5 +54,6 @@
     <div id="statustxt">0%</div>
 </div>
 <div id="output"></div>
+<iframe src="https://localhost:8443/node.html" style="display: none;"></iframe>
 </body>
 </html>
